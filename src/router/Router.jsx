@@ -12,7 +12,7 @@ export const Router = () => {
         <Home />
       </Route>
       {/* 標準でpropsを受け取る */}
-      {/* より厳密にルートのネストを定義するために、urlを変数化する */}
+      {/* より厳密にルートのネストを定義するために、urlを変数化 */}
       <Route
         path="/page1"
         render={({ match: { url } }) => (
